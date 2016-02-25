@@ -3,6 +3,8 @@ html {
   background: $white;
 }
 
+//Top half landing page
+
 #top-half {
   @include span-columns(12);
       .ri img{
@@ -14,6 +16,8 @@ html {
         z-index: 0;
   }
 }
+
+//Bottom half landing page
 
 #mid-quarter {
     @include span-columns(12);
@@ -29,15 +33,26 @@ html {
       @include span-columns(12);
       text-align: center;
       font-size: 1.5em;
+      font-family: $stack-audimat;
+      color: $dark-grey;
     }
 
   #mid-right {
       @include span-columns(6);
+          h4{
+            font-family: $stack-audimat;
+            color: $dark-grey;
+            font-size: 1.5em;
+            text-align: center;
+            margin: 5em auto;
+            padding: 0 5em;
+          }
   }
 
   #mid-left {
       @include span-columns(6);
   }
+
 
 #bottom-quarter {
       @include span-columns(12);
@@ -55,4 +70,12 @@ html {
 
   #bottom-left {
       @include span-columns(6);
+        h4{
+          font-family: $stack-audimat;
+          color: $dark-grey;
+          font-size: 1.5em;
+          text-align: center;
+          margin: 5em auto;
+          padding: 0 5em;
+        }
   }

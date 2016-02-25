@@ -46,7 +46,9 @@ html {
   margin-right: 2.35765%;
   width: 100%;
   text-align: center;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  font-family: Audimat3000-Regulier, sans-serif;
+  color: #515151; }
   #info:last-child {
     margin-right: 0; }
 
@@ -57,6 +59,13 @@ html {
   width: 48.82117%; }
   #mid-right:last-child {
     margin-right: 0; }
+  #mid-right h4 {
+    font-family: Audimat3000-Regulier, sans-serif;
+    color: #515151;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 5em auto;
+    padding: 0 5em; }
 
 #mid-left {
   float: left;
@@ -95,6 +104,48 @@ html {
   width: 48.82117%; }
   #bottom-left:last-child {
     margin-right: 0; }
+  #bottom-left h4 {
+    font-family: Audimat3000-Regulier, sans-serif;
+    color: #515151;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 5em auto;
+    padding: 0 5em; }
+
+footer {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  position: absolute;
+  z-index: 3;
+  margin: 260vh auto 0 auto;
+  color: #515151;
+  background: -webkit-linear-gradient(#FF7D15, #FF9D26, #FF7D15);
+  background: -moz-linear-gradient(#FF7D15, #FF9D26, #FF7D15);
+  background: -o-linear-gradient(#FF7D15, #FF9D26, #FF7D15);
+  background: -ms-linear-gradient(#FF7D15, #FF9D26, #FF7D15);
+  background: linear-gradient(#FF7D15, #FF9D26, #FF7D15); }
+  footer:last-child {
+    margin-right: 0; }
+
+footer ul {
+  position: absolute;
+  height: 10vh;
+  width: 100vw;
+  list-style-type: none;
+  padding: 4vh 3vw 0 3vw;
+  background: -webkit-linear-gradient(#FF7D15, #FF9D26, #FF7D15);
+  background: -moz-linear-gradient(#FF7D15, #FF9D26, #FF7D15);
+  background: -o-linear-gradient(#FF7D15, #FF9D26, #FF7D15);
+  background: -ms-linear-gradient(#FF7D15, #FF9D26, #FF7D15);
+  background: linear-gradient(#FF7D15, #FF9D26, #FF7D15); }
+  footer ul li {
+    display: inline;
+    padding: 0 6vw;
+    font-family: Audimat3000-Regulier, sans-serif;
+    font-size: 1em;
+    color: #515151; }
 
 .header {
   position: absolute;
