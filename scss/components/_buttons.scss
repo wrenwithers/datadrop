@@ -1,0 +1,25 @@
+.button {
+ position: absolute;
+ z-index: 1;
+ display: block;
+ height: 2.5em;
+ width: 7em;
+ background: $teal;
+ border-radius: 10px;
+ font-family: $stack-audimat;
+ color: $dark-grey;
+ font-size: 22px;
+ text-align: center;
+ background: -webkit-linear-gradient($color-button-gradient);
+ background: -moz-linear-gradient($color-button-gradient);
+ background: -o-linear-gradient($color-button-gradient);
+ background: -ms-linear-gradient($color-button-gradient);
+ background: linear-gradient($color-button-gradient);
+ box-shadow: 0 4px 0 $dark-orange;
+ -webkit-box-shadow: 0 4px 0 $dark-orange;
+ -moz-box-shadow: 0 4px 0 $dark-orange;
+ text-shadow: 0 2px 2px ($dark-orange, 0.2);
+ margin-top: 70vh;
+ margin-left: 45vw;
+ padding: .75em;
+}

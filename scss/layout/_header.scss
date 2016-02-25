@@ -1,0 +1,38 @@
+
+.header {
+  position: absolute;
+  z-index: 2;
+  margin: 1vh 0vw 0vh 2vw;
+  text-align: left;
+  font-family: $stack-audimat;
+  font-size: 2.5em;
+  color: $dark-grey;
+}
+
+.nav ul {
+  position: absolute;
+  z-index: 1;
+  display: inline;
+  width: 98vw;
+  height: 4vh;
+  list-style-type: none;
+
+    li {
+      float:right;
+      padding: 1em 2em 0em 2em;
+      font-family: $stack-audimat;
+      font-size: 1em;
+      color: $dark-grey;
+      border-bottom: thin solid $dark-grey;
+    }
+}
+
+a:link {
+  color: $dark-grey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $light-grey;
+  text-decoration: none;
+}

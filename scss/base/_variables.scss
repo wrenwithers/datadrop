@@ -1,0 +1,51 @@
+/// Descriptive color variables
+
+$white      : #fff;
+$black      : #000;
+$grey       : #8D8E8E;
+$dark-grey     :#515151;
+$teal :     #05CFBE;
+$dark-teal:     #0BA99D;
+$green-lightening  : #8FEF30;
+$light-orange      : #FF9D26;
+$dark-orange  : #FF7D15;
+$light-grey    : lighten($dark-grey, 35%);
+
+// Functional color variables
+
+$color-prim     : $dark-orange;
+$color-sec       : $green-lightening;
+$color-tert     : $teal;
+$color-quart     : $light-orange;
+$color-quin     : $grey;
+
+// $color-border-light : lighten($dark-grey, 35%);
+// $color-border-dark  : $yellow-orange;
+//
+// $color-link-default : $yellow-orange;
+// $color-link-visited : $regent-st-blue;
+
+$color-shadow       : rgba($black,.8);
+$color-text-body     : $white;
+$color-img-body         : $grey;
+$color-button-gradient    : $dark-orange, $light-orange, $dark-orange;
+
+// Font stacks
+
+$stack-audimat : Audimat3000-Regulier, sans-serif;
+// $stack-helvetica  : "Helvetica Neue", $stack-sans-serif;
+// $stack-abolition  : 'Abolition Regular', $stack-sans-serif;
+
+// Border radius
+
+// $br: 10px;
+
+// Asset paths
+
+$path-img     : '../img';
+$path-font     : '../fonts';
+
+// Media query breakpoints
+
+// $brk-narrow  : '(max-width: 768px)';
+// $brk-wide    : '(max-width: 1024px)';

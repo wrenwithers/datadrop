@@ -1,0 +1,58 @@
+html {
+  width: 100%;
+  background: $white;
+}
+
+#top-half {
+  @include span-columns(12);
+      .ri img{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: auto;
+        z-index: 0;
+  }
+}
+
+#mid-quarter {
+    @include span-columns(12);
+    position: relative;
+    margin: 74vh 0vh -6vh 0vh;
+    background-color: $white;
+    height: 50vh;
+    width: 100%;
+    z-index: 0;
+  }
+
+  #info {
+      @include span-columns(12);
+      text-align: center;
+      font-size: 1.5em;
+    }
+
+  #mid-right {
+      @include span-columns(6);
+  }
+
+  #mid-left {
+      @include span-columns(6);
+  }
+
+#bottom-quarter {
+      @include span-columns(12);
+      position: relative;
+      margin: 35vh 0vh -6vh 0vh;
+      background-color: $white;
+      height: 50vh;
+      width: 100%;
+      z-index: 0;
+  }
+
+  #bottom-right {
+      @include span-columns(6);
+  }
+
+  #bottom-left {
+      @include span-columns(6);
+  }
