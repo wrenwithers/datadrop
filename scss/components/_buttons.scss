@@ -1,4 +1,5 @@
-.button {
+
+a .button1 {
  position: absolute;
  z-index: 1;
  display: block;
@@ -15,11 +16,12 @@
  background: -o-linear-gradient($color-button-gradient);
  background: -ms-linear-gradient($color-button-gradient);
  background: linear-gradient($color-button-gradient);
- box-shadow: 0 4px 0 $dark-orange;
- -webkit-box-shadow: 0 4px 0 $dark-orange;
- -moz-box-shadow: 0 4px 0 $dark-orange;
- text-shadow: 0 2px 2px ($dark-orange, 0.2);
  margin-top: 70vh;
  margin-left: 45vw;
- padding: .75em;
+ padding: .65em;
+}
+
+a .button1:hover {
+  color: $grey;
+  border: thin solid $grey;
 }

@@ -11,7 +11,7 @@ html {
         position: absolute;
         left: 0px;
         top: 0px;
-        width: 100%;
+        width: 98vw;
         height: auto;
         z-index: 0;
   }
@@ -22,7 +22,7 @@ html {
 #mid-quarter {
     @include span-columns(12);
     position: relative;
-    margin: 74vh 0vh -6vh 0vh;
+    margin: 85vh 0vh -6vh 0vh;
     background-color: $white;
     height: 50vh;
     width: 100%;
@@ -31,6 +31,10 @@ html {
 
   #info {
       @include span-columns(12);
+      position: absolute;
+      z-index: 1;
+      height: 8vh;
+      width: 100%;
       text-align: center;
       font-size: 1.5em;
       font-family: $stack-audimat;
@@ -39,18 +43,24 @@ html {
 
   #mid-right {
       @include span-columns(6);
+      position: absolute;
           h4{
             font-family: $stack-audimat;
             color: $dark-grey;
             font-size: 1.5em;
             text-align: center;
-            margin: 5em auto;
+            margin: 30vh auto;
             padding: 0 5em;
           }
   }
 
   #mid-left {
       @include span-columns(6);
+      position: absolute;
+         img  {
+            position: absolute;
+            margin: 15vh 0 0 50vw;
+         }
   }
 
 
@@ -66,16 +76,22 @@ html {
 
   #bottom-right {
       @include span-columns(6);
+      position: absolute;
+        img  {
+         position: absolute;
+         margin-left: 3vw;
+    }
   }
 
   #bottom-left {
       @include span-columns(6);
+      position: absolute;
+      margin: 5vw 0 0 45vw;
+      padding: 5vw;
         h4{
           font-family: $stack-audimat;
           color: $dark-grey;
           font-size: 1.5em;
           text-align: center;
-          margin: 5em auto;
-          padding: 0 5em;
         }
-  }
+      }

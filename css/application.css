@@ -22,7 +22,7 @@ html {
     position: absolute;
     left: 0px;
     top: 0px;
-    width: 100%;
+    width: 98vw;
     height: auto;
     z-index: 0; }
 
@@ -32,7 +32,7 @@ html {
   margin-right: 2.35765%;
   width: 100%;
   position: relative;
-  margin: 74vh 0vh -6vh 0vh;
+  margin: 85vh 0vh -6vh 0vh;
   background-color: #fff;
   height: 50vh;
   width: 100%;
@@ -45,6 +45,10 @@ html {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
+  position: absolute;
+  z-index: 1;
+  height: 8vh;
+  width: 100%;
   text-align: center;
   font-size: 1.5em;
   font-family: Audimat3000-Regulier, sans-serif;
@@ -56,7 +60,8 @@ html {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 48.82117%; }
+  width: 48.82117%;
+  position: absolute; }
   #mid-right:last-child {
     margin-right: 0; }
   #mid-right h4 {
@@ -64,16 +69,20 @@ html {
     color: #515151;
     font-size: 1.5em;
     text-align: center;
-    margin: 5em auto;
+    margin: 30vh auto;
     padding: 0 5em; }
 
 #mid-left {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 48.82117%; }
+  width: 48.82117%;
+  position: absolute; }
   #mid-left:last-child {
     margin-right: 0; }
+  #mid-left img {
+    position: absolute;
+    margin: 15vh 0 0 50vw; }
 
 #bottom-quarter {
   float: left;
@@ -93,24 +102,29 @@ html {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 48.82117%; }
+  width: 48.82117%;
+  position: absolute; }
   #bottom-right:last-child {
     margin-right: 0; }
+  #bottom-right img {
+    position: absolute;
+    margin-left: 3vw; }
 
 #bottom-left {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 48.82117%; }
+  width: 48.82117%;
+  position: absolute;
+  margin: 5vw 0 0 45vw;
+  padding: 5vw; }
   #bottom-left:last-child {
     margin-right: 0; }
   #bottom-left h4 {
     font-family: Audimat3000-Regulier, sans-serif;
     color: #515151;
     font-size: 1.5em;
-    text-align: center;
-    margin: 5em auto;
-    padding: 0 5em; }
+    text-align: center; }
 
 footer {
   float: left;
@@ -147,6 +161,14 @@ footer ul {
     font-size: 1em;
     color: #515151; }
 
+a:link {
+  color: #515151;
+  text-decoration: none; }
+
+a:hover {
+  color: #aaaaaa;
+  text-decoration: none; }
+
 .header {
   position: absolute;
   z-index: 2;
@@ -179,7 +201,7 @@ a:hover {
   color: #aaaaaa;
   text-decoration: none; }
 
-.button {
+a .button1 {
   position: absolute;
   z-index: 1;
   display: block;
@@ -196,13 +218,13 @@ a:hover {
   background: -o-linear-gradient(#FF7D15, #FF9D26, #FF7D15);
   background: -ms-linear-gradient(#FF7D15, #FF9D26, #FF7D15);
   background: linear-gradient(#FF7D15, #FF9D26, #FF7D15);
-  box-shadow: 0 4px 0 #FF7D15;
-  -webkit-box-shadow: 0 4px 0 #FF7D15;
-  -moz-box-shadow: 0 4px 0 #FF7D15;
-  text-shadow: 0 2px 2px #FF7D15, 0.2;
   margin-top: 70vh;
   margin-left: 45vw;
-  padding: .75em; }
+  padding: .65em; }
+
+a .button1:hover {
+  color: #8D8E8E;
+  border: thin solid #8D8E8E; }
 
 @font-face {
   font-family: "Audimat3000-Regulier";
